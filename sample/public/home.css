@@ -1,0 +1,46 @@
+body {
+  margin: 0 !important;
+  min-height: 100vh !important;
+  background-image: url("./images/autumn-leaves-composition.jpg") !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.login {
+  text-decoration: none;
+  color: #6c757d;
+  font-size: large;
+  transition: all 0.3s;
+  margin-left: auto;
+}
+
+.login:hover {
+  color: #ced4da;
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 27px);
+}
+
+.main-content {
+  min-height: calc(100vh - 27px);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  color: #ced4da;
+  width: 600px;
+}
+
+.main-content h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 80px;
+}
+
+.main-content p {
+  font-family: "Caveat", cursive;
+  font-size: 16px;
+}
